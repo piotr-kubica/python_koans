@@ -33,8 +33,26 @@ from runner.koan import *
 # Your goal is to write the score method.
 
 def score(dice):
-    # You need to write this method
-    pass
+    if (dice == []):
+        return 0
+
+    sum = 0    
+    valueMap = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+    for v in dice:
+        valueMap[v] += 1
+
+    #sum 3 one's
+    if (valueMap[1] >= 3):
+        valueMap[1] -= 3
+        sum += 1000
+    else:
+        for v in range(2, 7):
+            if (valueMap[v] >= 3):
+                valueMap[v] -= 3
+                sum += 100 * v
+
+    return valueMap[1] * 100 + valueMap[5] * 50 + sum
+
 
 class AboutScoringProject(Koan):
     def test_score_of_an_empty_list_is_zero(self):
