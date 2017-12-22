@@ -1,6 +1,6 @@
 
 Finished!
-
+	image:: https://raw.githubusercontent.com/piotr-kubica/python_koans/master/python3/finished.png
 ![finished screenshot](https://raw.githubusercontent.com/piotr-kubica/python_koans/master/python3/finished.png)
 
 
