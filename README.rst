@@ -1,3 +1,10 @@
+
+Finished!
+
+![finished screenshot](https://github.com/piotr-kubica/python_koans/blob/master/python3/finished.png)
+
+
+
 ============
 Python Koans
 ============
