@@ -1,7 +1,7 @@
 
 Finished!
 
-![finished screenshot](https://github.com/piotr-kubica/python_koans/blob/master/python3/finished.png)
+![finished screenshot](https://raw.githubusercontent.com/piotr-kubica/python_koans/master/python3/finished.png)
 
 
 
